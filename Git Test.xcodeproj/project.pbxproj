@@ -21,6 +21,7 @@
 		2B0B3599194DE2B700E45747 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0B357B194DE2B700E45747 /* UIKit.framework */; };
 		2B0B35A1194DE2B700E45747 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B0B359F194DE2B700E45747 /* InfoPlist.strings */; };
 		2B0B35A3194DE2B700E45747 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0B35A2194DE2B700E45747 /* Git_TestTests.m */; };
+		2B0B35AE194DEB8700E45747 /* HNP Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0B35AD194DEB8700E45747 /* HNP Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2B0B359E194DE2B700E45747 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		2B0B35A0194DE2B700E45747 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B0B35A2194DE2B700E45747 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		2B0B35AC194DEB8700E45747 /* HNP Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HNP Test.h"; sourceTree = "<group>"; };
+		2B0B35AD194DEB8700E45747 /* HNP Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HNP Test.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2B0B3589194DE2B700E45747 /* Main.storyboard */,
 				2B0B358C194DE2B700E45747 /* HNPViewController.h */,
 				2B0B358D194DE2B700E45747 /* HNPViewController.m */,
+				2B0B35AC194DEB8700E45747 /* HNP Test.h */,
+				2B0B35AD194DEB8700E45747 /* HNP Test.m */,
 				2B0B358F194DE2B700E45747 /* Images.xcassets */,
 				2B0B357E194DE2B700E45747 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				2B0B3584194DE2B700E45747 /* main.m in Sources */,
 				2B0B3588194DE2B700E45747 /* HNPAppDelegate.m in Sources */,
 				2B0B358E194DE2B700E45747 /* HNPViewController.m in Sources */,
+				2B0B35AE194DEB8700E45747 /* HNP Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
